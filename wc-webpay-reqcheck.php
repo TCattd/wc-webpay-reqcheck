@@ -21,13 +21,18 @@ License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-// Add menu to Tools
+// No access outside WordPress
+if (!defined('ABSPATH')) {
+	exit;
+}
+
+// Add menu under Tools
 function tcattd_webpayreq_wpmenu() {
 	add_management_page( 'Webpay Req. Check', 'Webpay Req. Check', 'edit_posts', 'tcattd_webpayreq_check', 'tcattd_webpayreq_check_options' );
 }
 add_action( 'admin_menu', 'tcattd_webpayreq_wpmenu' );
 
-// Options page
+// Tools options page
 function tcattd_webpayreq_check_options() {
 	echo '<div class="wrap">
 			<h1>Webpay Plus Webservices, verificador de requerimientos</h1>
@@ -115,4 +120,3 @@ function tcattd_webpayreq_exec() {
 	echo '-----------------------------------<br/>';
 	echo '<a href="http://actitud.xyz/" target="_blank">It\'s about actitud.xyz</a>';
 }
-
