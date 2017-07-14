@@ -10,5 +10,7 @@ Subir archivo al servidor y apuntar el navegador a el.
 
 Ejemplo: http://actitud.xyz/webpayreqcheck.php
 
+También puedes [descargar un zip](https://github.com/TCattd/wc-webpay-reqcheck/archive/master.zip) del repositorio, y subirlo como plugin a tu instalación de WordPress. Luego de activado el plugin, ve a Herramientas -> Webpay Req. Check.
+
 ## Licencia
 GLPv2 https://www.gnu.org/licenses/gpl-2.0.html
