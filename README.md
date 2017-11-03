@@ -12,5 +12,15 @@ Ejemplo: http://actitud.xyz/webpayreqcheck.php
 
 También puedes [descargar un zip](https://github.com/TCattd/wc-webpay-reqcheck/archive/master.zip) del repositorio, y subirlo como plugin a tu instalación de WordPress. Luego de activado el plugin, ve a Herramientas -> Webpay Req. Check.
 
+## Requerimientos para Webpay Plus Webservices
+
+SOAP habilitado.
+OpenSSL 1.0.1 o superior.
+SimpleXML habilitado.
+DOM 2.7.8 o superior.
+Sockets habilitados.
+
+Todos los requerimientos los verifica automáticamente el script en este repositorio.
+
 ## Licencia
 GLPv2 https://www.gnu.org/licenses/gpl-2.0.html
