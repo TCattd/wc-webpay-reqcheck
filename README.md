@@ -8,7 +8,7 @@ El script es muy básico. Se puede mejorar, claro que si. Contribuciones (PR) so
 
 Subir archivo al servidor y apuntar el navegador a el.
 
-Ejemplo: http://actitud.xyz/webpayreqcheck.php
+Ejemplo: https://host.actitud.xyz/wc-webpay-reqcheck/webpayreqcheck.php
 
 También puedes [descargar un zip](https://github.com/TCattd/wc-webpay-reqcheck/archive/master.zip) del repositorio, y subirlo como plugin a tu instalación de WordPress. Luego de activado el plugin, ve a Herramientas -> Webpay Req. Check.
 
